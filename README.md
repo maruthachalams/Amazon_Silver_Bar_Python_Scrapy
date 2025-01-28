@@ -1,5 +1,6 @@
 # Amazon_Silver_Bar_Python_Scrapy
-# Silver Bar 1 kg 999.9 Purity Search in Amazon Website using Python with Scrapy Framework
+
+**Silver Bar 1 kg 999.9 Purity Search in Amazon Website using Python with Scrapy Framework**
 
 ## Developer Information
 - **Name:** MARUTHACHALAM S
@@ -20,21 +21,19 @@ This project involves web scraping the Amazon India website to search for 1 kg s
 Ensure you have Python 3.x installed. You can download it from [here](https://www.python.org/downloads/).
 
 ### Step 2: Install Required Libraries
-```bash
 pip install scrapy
 
-### Step 2: Run the Script:
-```bash
+### step 3: Run the Script
 scrapy crawl amazon_silver_scrap
 
-Script Explanation:
+### Script Explanation
+## Main Script:
 
-Main Script:
-Opens Amazon India website.
+Opens the Amazon India website.
 Searches for "silver bar 1kg 999.9 purity".
 Iterates through the search results, extracting details for each product.
 Extracts detailed information from each product listing.
 Logs the scraped items and follows the next page link to continue scraping.
 
-Author
-MARUTHACHALAM S
+### Author
+## MARUTHACHALAM S
